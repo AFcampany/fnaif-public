@@ -83,7 +83,7 @@
 
       <!-- start::Navigation -->
       <nav class="py-10 custom-scrollbar">
-        <div class="show"> <!-- show -->
+        <div class="hidden"> <!-- show -->
           <a x-data="{ linkHover: false }" @mouseover="linkHover = true" @mouseleave="linkHover = false"
             href="./accueil.html"
             class="flex items-center text-gray-400 px-6 py-3 cursor-pointer hover:bg-black hover:bg-opacity-30 transition duration-200">
@@ -275,7 +275,7 @@
           </a>
         </div>
 
-        <div class="hidden"> <!-- hidden -->
+        <div class="show"> <!-- hidden -->
           <a x-data="{ linkHover: false }" @mouseover="linkHover = true" @mouseleave="linkHover = false"
             href="./commerson.html"
             class="flex items-center text-gray-400 px-6 py-3 cursor-pointer hover:bg-black hover:bg-opacity-30 transition duration-200">
@@ -439,7 +439,7 @@
                 <!-- start::Submenu content -->
                 <div class="bg-white rounded">
                   <!-- start::Submenu link -->
-                  <a x-data="{ linkHover: false }" href="./profile.html"
+                  <a x-data="{ linkHover: false }" href="./profile-public.html"
                     class="flex items-center justify-between py-2 px-3 hover:bg-gray-100 bg-opacity-20"
                     @mouseover="linkHover = true" @mouseleave="linkHover = false">
                     <div class="flex items-center">
